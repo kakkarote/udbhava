@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Bootstrap Tutorial</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	.jumbotron{
+		background-color: #2E2D88;
+		color:white;
+	}
+	.tab-content{
+		border-left: 1px solid #ddd;
+		border-right:1px solid #ddd;
+		border-bottom:1px solid #ddd;
+		padding:10px;
+	}
+	.nav-tabs{
+		margin-bottom:0;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="page-header">
+	<div class="row">
+	<hr />
+	<div class="col-md-4"><h4> </h4></div>
+	<div class="col-md-4"><h2>TECHNICAL EVENTS </h2></div>
+	</div>
+</div>
+
+<ul class="nav navbar-fixed-top navbar-inverse nav-pills">
+<li><a href="#"><h5>UDBHAVA 2016</h5></a></li>
+<li class=""><a href="#">Home</a></li>
+<li class="dropdown">
+<a  class="dropdown-toggle" data-toggle="dropdown" href="#">CSE
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#hackathon">Hackathon</a></li>
+<li><a href="#coding">Online Coding Competition</a></li>
+<li><a href="#debugging">Debugging Competition</a></li>
+<li><a href="#quiz">Quiz</a></li>
+<li><a href="#scraping">Web Scraping Competition</a></li>
+	
+</ul>
+</li>
+<li class="dropdown">
+<a  class="dropdown-toggle" data-toggle="dropdown" href="#">ECE
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#baton">Pass the Baton</a></li>
+<li><a href="#innovate">Innovate</a></li>
+<li><a href="#packman">Packman</a></li>
+<li><a href="#robowar">Robo War</a></li>
+
+<li><a href="#creative">Creative Circuit</a></li>
+<li><a href="#technomaze">Technomaze</a></li>
+
+	
+</ul></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Electical
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#follower">Line Follower</a></li>
+<li><a href="#minigolf">Mini Golf</a></li>
+<li><a href="#rigging">Circuit Rigging</a></li>
+
+</ul></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+Chemical <span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li><a href="#laminaire">Laminaire</a></li>
+<li><a href="#hit">Hit me if you can</a></li>
+<li><a href="#engineer">Engineer of the year
+</a></li>
+<li><a href="#">Brain O Maze*
+</a></li>
+<li><a href="#">Industrial plant design*</a></li>
+<li class="divider"></li>
+<li><a href="#">Separated link</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a  class="dropdown-toggle" data-toggle="dropdown" href="#">Mechanical
+<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#udan">Udaan</a></li>
+<li><a href="#mangalyan">MangalYaan</a></li>
+<li><a href="#">Junkyard Wars</a></li>
+<li><a href="#amphion">Amphion</a></li>
+<li><a href="#arena">Arena</a></li>
+<li></li>
+	
+</ul></li>
+<li><a href="#">Architecture</a></li>
+<li><a href="#"></a></li>
+
+</ul>
+
+
+
+<div class="row row-offcanvas row-offcanvas-right">
+	<div class="col-xs-12 col-sm-9">
+		<div class="jumbotron">
+			<h1>Udbhava 2016</h1>
+
+	      <p>About Udbhava.</p>
+
+	      <p><a role="button" href="#" class="btn btn-lg btn-success">Register Your Team</a></p>
+		</div>
+
+	</div>
+
+
+
+
+
+<div class="col-sm-12 col-md-3 col-lg-3 col-xs-12 sidebar-offcanvas" id="sidebar">
+
+
+
+<div class="panel panel-success">
+		      <div class="panel-heading">
+		      	<center><h2><span class="glyphicon glyphicon-user"></span></h2></center>
+		        <h3 class="panel-title">Registration Form</h3>
+
+		      </div>
+
+		      <div class="panel-body" >
+		      <div id="">
+
+		        <form role="form"  action="form/submit" id="formreg">
+
+		          <div class="form-group">
+
+		            <label for="teamname">Team Name</label>
+
+		            <input type="input" class="form-control" id="teamname" placeholder="Enter team name">
+
+		          </div>
+		          <div class="form-group">
+
+		            <label for="collegename">College Name</label>
+
+		            <input type="input" class="form-control" id="collegename" placeholder="Enter your college name here.">
+
+		          </div>
+		           <div class="form-group">
+
+		            <label for="eventname">Event Name</label>
+
+		            <input type="input" class="form-control" id="eventname" placeholder="Enter the of event name .">
+
+		          </div>
+				  <div class="form-group">
+
+		            <label for="name">Name</label>
+
+		            <input type="text" class="form-control" id="emailField" placeholder="Name or Name1,Name2,Name3,Name4,">
+					<label for ="name" ><p style="font-size:70%;text-color:2ECCC9;"
+>for example(if more members in team) Abhay das(Team Leader), Neeraj Vats,Arshad khan,Mitali jha ....  </label>
+
+		          </div>
+
+
+		          <div class="form-group">
+
+		            <label for="emailField">Email address</label>
+
+		            <input type="email" class="form-control" id="emailField" placeholder="Enter email">
+
+		          </div>
+
+		          <!--<div class="form-group">
+
+		            <label for="selectField">Type</label>
+
+		            <select class="form-control" id="selectField">
+
+		              <option>1</option>
+
+		              <option>2</option>
+
+		              <option>3</option>
+
+		              <option>4</option>
+		              
+		              <option>5</option>
+
+		            </select>
+
+		          </div>-->
+
+		         <!-- <div class="progress progress-striped active">
+
+		          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+
+		              <span class="sr-only">30% Complete</span></div>
+
+		          </div>-->
+
+	          <button type="submit" class="btn btn-default">Submit</button>
+
+	        </form>
+	        </div>
+	      </div>
+
+
+
+
+</div>
+
+</div>
+</div>
+<div class="row">
+<div class="">
+	<div class="jumbotron" style="background-color: #fff">
+		
+	</div>
+</div>
+	
+</div>
+
+
+<div class="container">
+<div class="jumbotron" style="background-color: #8B8B8B">
+
+<h3><center><u>CSE EVENTS</u></center></h3>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="hackathon">
+	<div class="well">
+	<h3><center>HACKATHON</center></h3>
+	<p>
+		A 24 hour event where participants meet to engage in collaborative computer programming based on some theme or given problem statement
+	</p>
+	
+	
+	</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="coding">
+	<div class="well">
+	
+	<h3><center>ONLINE CODING COMPETITION</center></h3>
+	<p>
+		A simple online programming competition like ACM ICPC where participants would have to solve certain no. of problems in stipulated amount of time.
+	</p>
+	
+	
+	
+	</div>
+	</div>	
+	<div class="clearfix visible"></div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="debugging">
+<div class="well">
+	
+	<h3><center>DEBUGGING COMPETITION</center></h3>
+	<p>A competition where participants have to debug the given programs.</p>
+		
+	
+	</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="quiz">
+<div class="well">
+	
+	<h3><center>QUIZ...</center></h3>
+	<p>An open quiz on computers and related technology.</p>
+		
+	
+	</div>
+	</div>
+</div>
+<div class="clearfix visible"></div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="scraping">
+<div class="well">
+	
+	<h3><center>WEB SCRAPING COMPETITION</center></h3>
+	<p>A competition where participants would be extracting information from websites using different computer software techniques.</p>
+		
+	
+	</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+<div class="well" style="border:2px dashed;">
+	
+	<h3><center><a role="button" href="#formreg" class="btn btn-lg ">REGISTER HERE...</a> </center></h3>
+	
+
+</div>
+	</div>
+	<div class="clearfix visible"></div>
+	</div>
+	<!-- \-->
+</div>
+
+<div class="jumbotron" style="background-color: #F0AD4E;">
+	<h3><center><u>ECE EVENTS</u></center></h3>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="innovate">
+	<div class="well">
+	<h3><center>INNOVATE</center></h3>
+	<p>
+		This is an event consisting of two rounds, one is circuit debugging and the  other is bot controlling in which one of the two partners of the team have to control the bot provided by us to the finish line in minimum time.The bot will be both bluetooth and dpdt controlled.
+	</p>
+	
+	
+	</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="baton">
+	<div class="well">
+	
+	<h3><center>PASS THE BATON</center></h3>
+	<p>
+		This is a type of robo race only which will need two partners in a team. First player will take the bot to a given place and then the other partner will take another bot present there to its final destination.There would also be negative marking for damaging the arenas. The result will be given on the basis of minimum time taken to complete the full journey.
+	</p>
+	
+	
+	
+	</div>
+	</div>	
+	<div class="clearfix visible"></div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="robowar">
+<div class="well">
+	
+	<h3><center>ROBO WAR</center></h3>
+	<p>It is an event for those who like the thrill..Teams will have to design remote controlled bots which can fight one on one tournament.That bot is victorious which will immobilize the other bot or throws its opponent out of the arena. Judging is based on damage,control,design of bot and strategy used.</p>
+		
+	
+	</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="technomaze">
+<div class="well">
+	
+	<h3><center>TECHNOMAZE</center></h3>
+	<p>Technomaze is three round event which requires the participants to use their simple, yet intriguing circuit solving capabilities. The teams compete in the Virtual Tresure hunt from that five teams will go to the next round if they successfully redraw a given circuit into paper. The final round requires to do circuit designing on breadboard. The team which completes all the rounds in minimum time wins.</p>
+		
+	
+	</div>
+	</div>
+</div>
+<div class="clearfix visible"></div>
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="creative">
+<div class="well">
+	
+	<h3><center>CREATIVE CIRCUIT</center></h3>
+	<p>
+		Industries need economical circuits for any required purpose. Most industries look at how cheap and small the products are when they are deciding their final equipments. Creative circuit is a game which will provide an idea of how challenging it can be for employers working in this field to chose and appropriate element for a better purpose.</p>
+
+<p>Creative circuit game is fairly simple. Simplicity of the circuit depends on the fast calculations and reasoning abilities of the participants. The game will consist of multiple teams competing with each other at the same time. Each team will have two members. All the teams will be provided with same components. The components given will vary in their rate, availability, size and demand. A presentation slide will show the list the components and their price, availability, size and demand.</p>
+<p>
+The groups have to make an effective, creative, working circuit within thirty minutes from the start time. They will be provided with papers and pens to do any rough sketch or calculation. Also, breadboards will be provided to them. The teams have to make the circuit on the breadboard within the time limit. After the time is up, the inspection team will go around asking the purpose and noting down the summation of points based on-<br />
+
+-> 6 Rate <br />
+-> 2 Availability <br />
+-> 3 Size  <br />
+-> 4.Demand. <br />
+
+More availability, less rate, small size and less demand of the components will be the criterion for deciding the wining team.
+	</p>
+	
+	
+	
+</div>
+	</div>
+	<div class="clearfix visible"></div>
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="packman">
+<div class="well">
+	
+	<h3><center>PACKMAN</center></h3>
+	<p>Play live packman to win exciting prizes using robots provided by the team. The roots are capable of navigating and collecting the gold coins.  There will be restrictions in the pathway, but the player should be capable of handling the robot and reach the centre of the maze to collect the golden egg in the minimum time to win. This easy game uses gaming and judging skills to fetch you an awesome prize.</p>
+		
+	
+</div>
+	</div>
+    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+<div class="well" style="border:2px dashed;">
+	<div id="register">
+	<h3><center><a role="button" href="#" class="btn btn-lg ">REGISTER HERE...</a> </center></h3>
+	
+	</div>
+</div>
+	</div>
+		
+	</div>
+</div>
+
+
+
+<div class="jumbotron" style="background-color: #9999FF">
+<h3><center><u>EEE EVENTS</u></center></h3>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="follower">
+	<div class="well" id="">
+	<h3><center>LINE FOLLOWER</center></h3>
+	<p>
+		A 24 hour event where participants meet to engage in collaborative computer programming based on some theme or given problem statementLet us bring the robot intelligence from the very scratch. This event will be a classic format event of line following in which a team (of maximum four members) will build their own robot to compete. An autonomous event with only turns of 90 degrees in which robot must be able to retrace its path back to the starting line.
+	</p>
+	
+	
+	</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="minigolf">
+	<div class="well" id="">
+	
+	<h3><center>miniGOLF</center></h3>
+	<p>
+		A golf game on a smaller platform for some robot lovers. This event will be held with two teams (max four members) competing against each other simultaneously. Event will include Table Tennis balls (as golf balls) on the arena and participants will have to control their bots to score by passing balls in the holes on the arena.
+	</p>
+	
+	
+	
+	</div>
+	</div>	
+	<div class="clearfix visible"></div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="rigging">
+<div class="well">
+	
+	<h3><center>CIRCUIT RIGGING</center></h3>
+	<p>This event will include designing of circuits and debugging of circuits on a bread board to get the correct response from the circuit. Correct result will lead to the hint for designing the next circuit.
+Event will be held with all the participants starting together at once and only one among all will stand tall as the Winner.</p>
+		
+	
+	</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+<div class="" style="border:2px dashed;">
+	<div class="" id="register">
+	<h3><center><a role="button" href="#" class="btn btn-lg btn-link ">REGISTER HERE...</a> </center></h3>
+	
+		
+	</div>
+	</div>
+	</div>
+</div>
+<div class="clearfix visible"></div>
+
+	<!-- \-->
+</div>
+
+
+
+<div class="jumbotron" style="background-color: #CC6633">
+<h3><center><u>MECHANICAL EVENTS</u></center></h3>
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="udan">
+	<div class="well">
+	<h3><center>UDAN</center></h3>
+	<p style="justify-content:center;">
+		Have you ever been fascinated to see the planes flying too high in the sky. This ISTE EVENT spread your wings and fly high with your own Rubber  Powered Glider. Review your concepts of Basic Aerodynamics and Aeromodelling and win exciting prizes.
+	</p>
+	
+
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+	
+		<h4><center><a href="#col26Content" data-toggle="collapse">PROBLEM STATEMENT :</a></center></h4>
+		<div id="col26Content" class="collapse ">
+		<p style="font-size: 20px;">
+The participants have to build their own design of rubber powered glider having rotating propeller on any designing softwere first which must satisfy the given criteria, and then accordind to that design they will make their own model. No launcher will be provided for launching the glider.
+	</p></div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+	
+		<h4><a href="#col25Content" data-toggle="collapse">DIMENSIONS :</a></h4>
+		<div id="col25Content" class="collapse ">
+		<p style="font-size: 20px;">
+-> Front wing size not more then 50cm.<br />
+-> length not more then 70cm.<br />
+	</p></div>
+	</div>
+	</div>
+	<p>
+		<h4><center><a href="#col24Content" data-toggle="collapse">RULES :</a></center></h4>
+		<div id="col24Content" class="collapse ">
+		<ul style="font-size: 20px;">
+ <li>A team may consist of a maximum of three members.</li>
+<li> If the glider will get broken in the air or before launch then the team will be disqualified.</li>
+<li>Every part of the glider must be self-made , use of models having pre-fabricated parts is not allowed. You are allowed to use readymade propellers if needed.</li>
+<li>You need to explain special features of design , material used in your model clearly as there will be points for innovative design.</li>
+<li>The ISTE team have the right to disqualify any team in case of misbehavior.</li>
+<li>Only 10 teams with their selected designs on softwere will go to the final round.</li></ul></div>
+	</p>
+	<p>
+		<h4><a href="#col23Content" data-toggle="collapse">JUDGEMENT CRITERIA :</a></h4>
+		<div id="col23Content" class="collapse ">
+		<ul style="font-size: 20px;">
+<li>     The judgement and point distribution for this event will be based on :
+<li>Innovation
+<li>Time of flight 
+<li>Range of flight</ul></div>
+	</p>
+
+	
+	
+	</div>
+	</div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="mangalyan">
+	<div class="well">
+	
+	<h3><center>2.)MANGALYAN</center></h3>
+	<p>
+		Ever dreamed to step on mars surface.some have already stepped on the mars not by sending humans but by sending MARS-ROVER.
+You have been given a opportunity to make something which can move over the martian surface. So, here is our event “MANGALYAAN” in which you need to make a vehicle similar to mars rover.	</p>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<h4><a href="#col22Content" data-toggle="collapse">EVENT STRUCTURE:-</a></h4>
+	<div id="col22Content" class="collapse ">
+
+	<p>
+	<ul style="font-size:20px;opacity: 0.8;">
+<li>To design a vehicle which can pass the track with lot of ups and downs, many inclinations and a number of other hurdles in shortest possible time.
+<li>The vehicle should be based on rocker bogie mechanism.</ul>
+</p></div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<p>
+<h4><a href="#col21Content" data-toggle="collapse">
+RULES:-</a></h4>
+<div id="col21Content" class="collapse ">
+<ul style="font-size:20px; opacity: 0.8;">
+<li>
+At most three members can make a team.
+<li>
+The vehicle should not be bought. It should be self-made and should not exceed the given dimensions.
+<li>
+The dimension of vehicle should not exceed 50cm X 30cm X 30cm (lxbxh).
+<li>The participant should be able to explain the way and principle used in construction in proper way, otherwise their prototype will be disqualified.
+<li>There should be maximum 8 motors used in vehicle. If a team use more than 8 motors, they will be disqualified.
+<li>The suspension system should not be used in vehicle.
+<li>No harm should be done to arena.
+<li>Sharp edges must be avoided.
+<li>The rover should be remote control or wire control.</ul></div>
+</p>
+</div>
+</div>
+<div class="clearfix visible"></div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+<p>
+
+<h4><a href="#col20Content" data-toggle="collapse">POINT DISTRIBUTION:- </a></h4>
+
+<div id="col20Content" class="collapse ">
+<ul style="font-size: 20px;opacity: 0.8;">
+<li>
+• There will be time penalty for each foul. Foul includes touching the vehicle and damaging the arena or any other unwanted activities.</li>
+<li>
+• Time bonus will be given for innovative and better design.</li></ul></div>
+</p>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+
+
+<h4><a href="#col19Content" data-toggle="collapse">JUDGING CRITERIA:-</a></h4>
+
+<div id="col19Content" class="collapse ">
+<p style="opacity: 0.8; font-size:20px">
+• The team which will take least time to complete the given task after considering time bonus or time penalty points will be winner.
+</p></div>
+</div>
+
+</div>
+	
+	
+	
+	</div>
+	</div>	
+	<div class="clearfix visible"></div>
+</div>
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="amphion">
+<div class="well">
+	
+	<h3><center>3.)AMPHION</center></h3>
+	<p>You probably would have dreamed of a vehicle which can move on both land and water. Well, now you have the chance to fabricate one. </p>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<p><h4><a href="#col18Content" data-toggle="collapse">EVENT STRUCTURE</a>
+</h4>
+<div id="col18Content" class="collapse ">
+		<ul style="font-size:20px;">
+			
+<li>Build a vehicle of dimensions not more than 40cm X 30cm X 20cm (lxbxh) which can traverse on both land and water.							          <li>Tyre diameter should not exceed 10cm. 
+<li>Motor used should not exceed 100.                             
+<li>Vehicle connections can be made wired or wireless for controlling purposes.
+<li>Design of bot should be such that it can move properly on inclinations, hurdles, and sharp turns on land and manoeuvre in water as well.
+
+		</ul></div>
+	</p>
+	</div>
+
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<p>
+		<h4><a href="#col17Content" data-toggle="collapse">RULES AND JUDGING CRITERIA:-</a></h4>
+		<div id="col17Content" class="collapse ">
+
+		<ul style="font-size:20px;">
+<li>The participants should be able to explain the construction and working of their bot.
+<li>Atmost 4 members can be there in a team.
+<li>Vehicle should be self-made and should not exceed the given dimensions.
+<li>It is a time constraint event with several bonuses and penalties.                                                                                  
+<li>Extra points will be awarded for innovative design.
+</ul></div>
+	</p>
+		
+	</div>
+	</div>
+	<p style="font-size:20px;">
+		<h4>NOTE:</h4> 
+		Any kind of change can take place at the time of event and rules may change accordingly.
+	</p>
+	
+	</div>
+</div>
+
+</div>
+<div class="clearfix visible"></div>
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="arena">
+<div class="well">
+	
+	<h3><center>4.)ARENA</center></h3>
+	<p>The last event will be related to some innovative product which can be used in our day to day life.
+Its details are yet to be finalised</p>
+		
+	
+	</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+<div class="well" style="border:2px dashed">
+	
+	<h3><center><a role="button" href="#" class="btn btn-lg ">REGISTER HERE...</a> </center></h3>
+	
+
+</div>
+	</div>
+	<div class="clearfix visible"></div>
+	</div>
+	<!-- \-->
+</div>
+
+<div class="jumbotron" style="background-color: #339999">
+<h2><center>CHEMICAL EVENTS</center></h2>
+
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="engineer">
+<div class="well">
+	<h3><center>1.)ENGINEER OF THE YEAR</center></h3>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<h4><a href="#col1Content" data-toggle="collapse">OBJECTIVE</a></h4>
+<div id="col1Content" class="collapse in">
+		<p>
+		To judge and enhance the technical and analytical skills of participants through various events.</p></div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+	<h4><a href="#col2Content" data-toggle="collapse">MATERIAL REQUIRED:</a></h4>
+	<div id="col2Content" class="collapse ">
+	 <p>Each and every required material will be provided on the spot and participants have to solve the problem with the given quantity of material in the best way.</p></div>
+		
+	</div>
+		
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+			<h4><a href="#col3Content" data-toggle="collapse">DESCRIPTION</a></h4>
+			<div id="col3Content" class="collapse ">
+			<p> <i>As not every man is meant to be engineer, so engineer of the year is a fun cum technical event.</i> This event will judge the creative and innovative skills. The participating teams have to design or tackle the problem using given set of material.</p></div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<h4><a href="#col4Content" data-toggle="collapse">EVENT:</a></h4> 
+		<div id="col4Content" class="collapse "><p> 
+		The events are to judge the technical and analytical skills of the participants.</p></div>
+			
+		</div>
+	</div>
+	
+	<div class="clearfix visible"></div>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<h4><a href="#col5Content" data-toggle="collapse">RULES:</a></h4>
+	<div id="col5Content" class="collapse ">
+	<ul style="font-size:20px;">
+<li>A team can have 3 participants at max.
+<li>The given problem is to be tackled in a certain time limit.
+<li>The problem is to tackled with the given set of material.
+<li>The decision of the organizing team will be considered final in case of any dispute.
+</ul>
+</div>
+		
+	</div>
+
+		
+	</div>
+</div>
+	
+</div>
+	
+</div>
+
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="hit">
+<div class="well">
+	<h3><center>2.)HIT ME IF YOU CAN</center></h3>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<a href="#col6Content" data-toggle="collapse"><h4>OBJECTIVE</h4></a>
+<div id="col6Content" class="collapse in">
+		<p>To design a water rocket accurate enough to hit distant targets. <br />
+</p></div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+	<h4><a href="#col7Content" data-toggle="collapse">MATERIAL REQUIRED:</a></h4>
+	<div id="col7Content" class="collapse ">
+	 <p>The participating team has to just design the rocket (2 liter bottle) in the best possible way.</p></div>
+		
+	</div>
+		
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+			<h4><a href="#col8Content" data-toggle="collapse">DESCRIPTION</a></h4>
+			<div id="col8Content" class="collapse "><p> An event that focuses on the way the rocket has been designed and also on the accuracy and range of the rocket which works on the principles of pressure and hydraulics.</p></div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<h4><a href="#col9Content" data-toggle="collapse">Event:</a></h4>
+		
+		<div id="col9Content" class="collapse "><p> 
+		<ul style="font-size:20px;">
+		<li>The participants are expected to come in teams of 3-4 each.</li>
+		<li>There will be a shooting sector comprising of 3 stages at fixed distance as prescribed by the organizing team.  </li>
+		</ul></p></div>
+			
+		</div>
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<h4><a href="#col10Content" data-toggle="collapse">RULES</a></h4>
+
+<div id="col10Content" class="collapse ">
+	<ul style="font-size:20px;">
+<li>A total of 3 members per team.
+<li> Individuals can also participate.
+<li>The rocket must meet the dimensions as prescribed by
+        the Organizing team at the time of the registration.
+<li>The decision of the organizing team will be considered final in case of any dispute.
+</ul></div>
+		
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		
+		<h4><a href="#col11Content" data-toggle="collapse">JUDGING CRITERIA</a></h4>
+		<div id="col11Content" class="collapse ">
+
+		<p>
+The rocket that clears the maximum stages and hits the maximum targets will be declared the winner along with considering the complexity of the design and aesthetics also.</p></div>
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+	
+	</div>
+		
+	</div>
+</div>
+	
+</div>
+	
+</div>
+
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="laminaire">
+<div class="well">
+	<h3><center>3.)LAMINAIRE</center></h3>
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<h4><a href="#col12Content" data-toggle="collapse">OBJECTIVE</a></h4>
+<div id="col12Content" class="collapse ">
+
+		<p>To design conduct with nozzle that converts turbulent flow to laminar flow. <br />
+</p></div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+			<h4><a href="#col13Content" data-toggle="collapse">DESCRIPTION</a></h4>
+			<div id="col13Content" class="collapse ">
+			<p> An event that focuses on the way how efficiently you turn the turbulent flow to laminar with minimum distortion using simple principles of fluid mechanics and pressure.</p></div>
+		</div>
+		
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+		
+		<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+		<h4><a href="#col14Content" data-toggle="collapse">Event:</a></h4>
+<div id="col14Content" class="collapse ">
+		<p> 
+		<ul style="font-size:20px;">
+		<li>The conduct with nozzle should be designed in such a way that it projects water to the longest distance.</li>
+		<li>A constant supply of water to the device’s inlet will be provided. </li>
+		</ul></p></div>
+			
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<h4><a href="#col15Content" data-toggle="collapse">RULES</a></h4>
+	<div id="col15Content" class="collapse ">
+	<ul style="font-size:20px;">
+<li>A total of 2-3 members per team.
+<li> The nozzle at the inlet must meet the dimensions of regular household pipe for proper fit.
+<li>The decision of the organising team will be considered as final in any case of dispute.
+
+</ul></div>
+		
+	</div>
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		
+		<h4><a href="#col16Content" data-toggle="collapse">JUDGING CRITERIA</a></h4>
+		
+<div id="col16Content" class="collapse ">
+		<p>
+The device which makes the best laminar stream for longest distance will be declared winner. Besides the distance traversed, the design of the conduit and aesthetics will also be taken into consideration.</p>
+</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<h3>Guide Links:</h3>
+	<a href="https://www.youtube.com/watch?v=VKkQan82ukI  ">https://www.youtube.com/watch?v=VKkQan82ukI</a> <br />  
+<a href="https://www.youtube.com/watch?v=rscpnV5DBSo">https://www.youtube.com/watch?v=rscpnV5DBSo</a>
+
+		
+	</div>
+	<div class="clearfix visible"></div>
+	<div class="row">
+	
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">	
+<div class="well" style="border:2px dashed;">
+	
+		<h3  style="color:white;" ><center><a role="button" href="#" class="btn btn-lg "><u>REGISTER HERE...</u></a></center></h3>
+		
+	</div>
+	</div>
+	</div>
+		
+	</div>
+</div>
+	
+</div>
+	
+</div>
+
+
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html> 
