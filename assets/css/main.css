@@ -1776,7 +1776,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			background: url("images/overlay_.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2099,7 +2099,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: grey;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -3187,3 +3187,29 @@
 			}
 
 	}
+
+
+#logo {
+	width: 40px;
+    height: 40px;
+}
+
+#logo img {
+	display:inline-block;
+	vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+#logo a{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+
+#img_id {
+	transition: background 1s linear ease-in-out;
+    -moz-transition: background 1s linear ease-in-out; /* Firefox 4 */
+    -webkit-transition: background 1s  ease-in-out; /* Safari and Chrome */
+    -o-transition: background 1s linear ease-in-out;
+}
